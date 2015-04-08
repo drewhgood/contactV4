@@ -1,0 +1,95 @@
+html{
+ background: -webkit-linear-gradient(90deg, #556270 10%, #FF6B6B 90%); /* Chrome 10+, Saf5.1+ */
+
+}
+
+
+body{
+ background: -webkit-linear-gradient(90deg, #556270 10%, #FF6B6B 90%); /* Chrome 10+, Saf5.1+ */
+
+  font-family: helvetica;
+  text-shadow:none;
+
+}
+
+.row{
+  margin-bottom: 40px;
+}
+
+th {
+  text-align: center;
+}
+
+tr:hover{
+  color:black;
+  text-weight:light;
+}
+
+thead tr:hover{
+ background-color:rgba(255, 255, 255, .5);
+}
+
+.table-hover>tbody>tr:hover{
+   background-color:rgba(255, 255, 255, .5);
+}
+
+}
+
+h1{
+  margin-bottom: 75px;
+}
+
+.btn{
+  color:white;
+  background-color: transparent;
+  border: 1px solid white;
+  width:100%;
+}
+
+.btn:hover{
+  background-color:rgba(255, 255, 255, .5);
+  color:black;
+}
+
+.btn:focus{
+  background-color:rgba(255, 255, 255, .5);
+  color:black;
+}
+
+input.form-control{
+  color:black;
+}
+
+.input-group{
+  margin-bottom:25px;
+  background-color: transparent;
+}
+
+.input-group .form-control:last-child{
+  background-color: transparent;
+}
+
+.input-group .form-control:last-child:focus{
+  background-color: rgba(255, 255, 255, .5);
+}
+
+td input {
+  background-color: rgba(255, 255, 255, .5);
+  border:none;
+  color:#556270;
+  text-align: center;
+}
+
+span{
+  padding-left:25px;
+  font-size: 20px;
+}
+
+#addContact{
+  width:25px;
+  margin-left:10px;
+  height:25px;
+  padding:0 0 2px;
+}
+
+
